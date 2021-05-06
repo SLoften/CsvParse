@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0166T1SvjsJPg/E1h8Tn3ZOs9ie561ScY+pVvvPiJlruHD9tK7/Dlr2TJP/0pYf6ENcehVlAzVx1e3wW6iS+vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sebastian\\source\\repos\\CsvParse\\CsvParser.Core\\CsvParser.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

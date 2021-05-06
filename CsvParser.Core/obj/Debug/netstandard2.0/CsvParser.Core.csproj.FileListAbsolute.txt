@@ -1,0 +1,9 @@
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\bin\Debug\netstandard2.0\CsvParser.Core.deps.json
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\bin\Debug\netstandard2.0\CsvParser.Core.dll
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\bin\Debug\netstandard2.0\CsvParser.Core.pdb
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.AssemblyInfoInputs.cache
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.AssemblyInfo.cs
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.dll
+C:\Users\Sebastian\source\repos\CsvParse\CsvParser.Core\obj\Debug\netstandard2.0\CsvParser.Core.pdb
