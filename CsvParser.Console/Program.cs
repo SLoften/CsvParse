@@ -1,12 +1,9 @@
 ﻿using CsvParser.Core;
+using CsvParser.Core.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CsvParser
 {
@@ -14,15 +11,19 @@ namespace CsvParser
     {
         static void Main(string[] args)
         {
-            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory.ToString() + @"ShipmentOrders\customer_csv");
+            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory.ToString(), @"ShipmentOrders\customer_csv");
             var shipments = CsvReader.ReadShipments(path);
             var json = JsonConvert.SerializeObject(shipments, new JsonSerializerSettings {ContractResolver = new CamelCasePropertyNamesContractResolver()});
-            /*foreach (var item in shipments)
+            var shipmentService = new ShipmentService();
+            var futureShipments = shipmentService.GetFutureShipments(shipments);
+            var countryGroupedShipments = shipmentService.GroupByReceiverCountry(futureShipments);
+            foreach (var item in futureShipments)
             {
-                Console.WriteLine(item.SequenceNo);
+                Console.WriteLine(item.ShipDate);
             }
-            */
-            Console.WriteLine(json);
+            XmlPrinter.CreateXmlFile(countryGroupedShipments);
+            
+            //Console.WriteLine(json);
             Console.ReadLine();
         }
     }

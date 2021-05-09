@@ -33,7 +33,7 @@ namespace CsvParser.Core.CsvDtos
                 Height = this.Height,
                 Width = this.Width,
                 Length = this.Length,
-                Weight = this.Weight,
+                WeightLbs = this.Weight,
                 Sender = new Sender
                 {
                     SenderCountry = this.SenderCountry,
